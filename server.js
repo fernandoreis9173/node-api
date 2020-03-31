@@ -22,4 +22,4 @@ mongoose.connect('mongodb://localhost:27017/nodeapi',
 // primeira rota
 app.use("/api",require("./src/routes"));
 
-app.listen( process.env.PORT || 3000);
+app.listen( process.env.PORT || 27017);
